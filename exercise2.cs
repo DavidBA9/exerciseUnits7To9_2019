@@ -10,7 +10,7 @@ class TextWithoutA
         bool findA = false;
         do
         {
-            Console.WriteLine("Enter the text");
+            Console.WriteLine("Enter the text please");
             text = Console.ReadLine();
             foreach (char letter in text)
             {
@@ -20,5 +20,6 @@ class TextWithoutA
                 }
             }
         } while (findA);
+        Console.WriteLine("Bye");
     }
 }

@@ -29,5 +29,5 @@ int main()
             countIncrements++;
         }
     }
-    cout << countIncrements + "increments" << endl;
+    cout << countIncrements + "increments." << endl;
 }
