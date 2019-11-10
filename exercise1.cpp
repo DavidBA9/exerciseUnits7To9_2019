@@ -30,4 +30,5 @@ int main()
         }
     }
     cout << countIncrements + "increments." << endl;
+    cout << "Bye !!" << endl;
 }
